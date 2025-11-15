@@ -41,3 +41,12 @@ function TriangleP(a, b, c) {
 function CircleP(r) {
          return 2 * Math.PI * r;
 }
+function SquareP(a) {
+         return a * 4;
+}
+function Root(a) {
+         return Math.sqrt(a);
+}
+function Cotan(a) {
+         return 1 / Math.tan(a);
+}
