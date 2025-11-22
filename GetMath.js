@@ -50,3 +50,12 @@ function Root(a) {
 function Cotan(a) {
          return 1 / Math.tan(a);
 }
+function TrapezoidP(a, b , c , d) {
+         return a + b + c + d;
+}
+function PolygonP(a) {
+         return a * 5;
+}
+function StarP(a) {
+         return a * 10;
+}
