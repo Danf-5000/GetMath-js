@@ -30,6 +30,12 @@ Root(a);  -  корень числа
 
 Cotan(a) - котангенс
 
+TrapezoidP(a ,  b , c , d) - периметр трапеции
+
+PolygonP(a) - периметр многоугольника
+
+StarP(a) - периметр звезды
+
 a , b можно менять на свои цифры
 
 Пример: Plus(2, 2) - выведет 4
@@ -42,8 +48,12 @@ alert(Plus(2, 3));
 
 Пример новых функций
 
-console.log(SquareP(2));
+console.log(TrapezoidP(2 , 2 , 2 , 2));
 
-console.log(Root(2));
+console.log(PolygonP(2));
 
-console.log(Cotan(2));
+console.log(StarP(2));
+
+
+
+
