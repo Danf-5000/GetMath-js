@@ -36,6 +36,12 @@ PolygonP(a) - периметр многоугольника
 
 StarP(a) - периметр звезды
 
+Sec(a) - секанс
+
+Cosec(a) - косеканс
+
+SumAnglesSin(a, b) - синус суммы углов
+
 a , b можно менять на свои цифры
 
 Пример: Plus(2, 2) - выведет 4
@@ -48,12 +54,8 @@ alert(Plus(2, 3));
 
 Пример новых функций
 
-console.log(TrapezoidP(2 , 2 , 2 , 2));
+console.log(Sec(2));
 
-console.log(PolygonP(2));
+console.log(Cosec(2));
 
-console.log(StarP(2));
-
-
-
-
+console.log(SumAnglesSin(2, 2));
