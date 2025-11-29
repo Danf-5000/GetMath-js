@@ -59,3 +59,12 @@ function PolygonP(a) {
 function StarP(a) {
          return a * 10;
 }
+function Sec(a) {
+         return 1 / Math.cos(a);
+}
+function Cosec(a) {
+         return 1 / Math.sin(a);
+}
+function SumAnglesSin(a, b) {
+         return Math.sin(a + b);
+}
