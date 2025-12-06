@@ -68,3 +68,12 @@ function Cosec(a) {
 function SumAnglesSin(a, b) {
          return Math.sin(a + b);
 }
+function SumAnglesCos(a, b) {
+         return Math.cos(a + b);
+}
+function SumAnglesTan(a, b) {
+         return Math.tan(a + b);
+}
+function SumAnglesCotan(a, b) {
+         return 1 / Math.tan(a + b);
+}
