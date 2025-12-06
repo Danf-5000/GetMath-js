@@ -42,6 +42,12 @@ Cosec(a) - косеканс
 
 SumAnglesSin(a, b) - синус суммы углов
 
+SumAnglesCos(a, b) - косинус суммы углов
+
+SumAnglesTan(a, b) - тангенс суммы углов
+
+SumAnglesCotan(a, b) - котангенс суммы углов
+
 a , b можно менять на свои цифры
 
 Пример: Plus(2, 2) - выведет 4
@@ -54,8 +60,9 @@ alert(Plus(2, 3));
 
 Пример новых функций
 
-console.log(Sec(2));
+console.log(SumAnglesCos(2));
 
-console.log(Cosec(2));
+console.log(SumAnglesTan(2, 2));
 
-console.log(SumAnglesSin(2, 2));
+console.log(SumAnglesTan(2, 2));
+
