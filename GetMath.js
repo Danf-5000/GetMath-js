@@ -77,3 +77,14 @@ function SumAnglesTan(a, b) {
 function SumAnglesCotan(a, b) {
          return 1 / Math.tan(a + b);
 }
+function SumAnglesSec(a, b) {
+         return 1 / Math.cos(a + b);
+}
+function SumAnglesCosec(a, b) {
+         return 1 / Math.sin(a + b);
+}
+function EllipseP(a, b) {
+        var term1 = 3 * (a + b);
+        var term2 = Math.sqrt((3 * a + b) * (a + 3 * b));
+        return Math.PI * (term1 - term2);
+}
