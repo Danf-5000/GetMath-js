@@ -1,5 +1,5 @@
-# GetMath-js
-библиотека для упрощения работы с математикой в js
+#GetMath-js
+Библиотека для упрощения работы с математикой в js
 Предположим в нашей библиотеке есть эти функции
 
 Plus(a, b); - сложение
@@ -48,6 +48,12 @@ SumAnglesTan(a, b) - тангенс суммы углов
 
 SumAnglesCotan(a, b) - котангенс суммы углов
 
+SumAnglesSec(a, b) - секанс суммы углов
+
+SumAnglesCosec(a, b) - косеканс суммы углов
+
+EllipseP(a, b) - периметр овала
+
 a , b можно менять на свои цифры
 
 Пример: Plus(2, 2) - выведет 4
@@ -60,9 +66,11 @@ alert(Plus(2, 3));
 
 Пример новых функций
 
-console.log(SumAnglesCos(2));
+console.log(SumAnglesSec(2));
 
-console.log(SumAnglesTan(2, 2));
+console.log(SumAnglesCosec(2, 2));
 
-console.log(SumAnglesTan(2, 2));
+console.log(EllipseP(2, 2));
+
+
 
